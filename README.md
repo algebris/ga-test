@@ -40,7 +40,7 @@ date/time calculation.
 
 *DB_FILENAME* - filename which automatically creating in app directory. Need for support NeDB queries.
 
-## Run
+## Launch
 
 Script going to run index.js file in app directory, do the queries, print them out and exit. If everything goes well DB file taken from 
 DB_FILENAME should oppear in app directory. It has readable text format and suitable for reading as is. 
@@ -58,3 +58,15 @@ info: Yesterday is 1500% more than today.
 info: Median number of visitors is 0 for past 7 days
 info: Results are saved to Db.
 ```
+
+## Info
+
+I would be appreciated to get any feedback to algebris@gmail.com.
+I you'd like to test it with live JSON key, just drop me a message, 
+I will send you an example JSON key file (Read-only)
+
+Cheers.
+
+Telegram: @algebris
+Skype: algebris
+Phone: +7(913)920-41-51
