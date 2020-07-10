@@ -20,8 +20,8 @@ Then you have to fetch repository and build node_modules tree:
 
 ## Configure
 
-This module well tested with real GA credentials, so in order to test in live data, please
-obtain JSON key file from Google. Then you have to create .env file in app directory.
+This module is well tested with real GA credentials, so for testing on real data, please
+get JSON key file from Google. Then you must to create .env file in app directory.
 
 Example of .env
 ```
@@ -31,19 +31,19 @@ GA_TZ = 3
 DB_FILENAME = ga-test.db
 ```
 
-*GOOGLE_APPLICATION_CREDENTIALS* - variable configured to this JSON file name. I just renamed it to something more usefull *auth.json*
+*GOOGLE_APPLICATION_CREDENTIALS* - the variable configured for this JSON file name. I just renamed it to something more usefull *auth.json*
 
-*VIEW_ID* – view must be configured in https://analytics.google.com/analytics/web and copy/pasted in this variable.
+*VIEW_ID* – the view must be configured in https://analytics.google.com/analytics/web and copy/pasted in this variable.
 
-*GA_TZ* - when you create a new GA application you have to configure a time-zone and copy/past in this variable. It's necessary for proper
-date/time calculation.
+*GA_TZ* - when you create a new GA application, you need to set the time-zone and copy/paste into this variable. It's necessary for proper calculation
+date/time .
 
 *DB_FILENAME* - filename which automatically creating in app directory. Need for support NeDB queries.
 
 ## Launch
 
-Script going to run index.js file in app directory, do the queries, print them out and exit. If everything goes well DB file taken from 
-DB_FILENAME should oppear in app directory. It has readable text format and suitable for reading as is. 
+The script is about to launch the index.js file in app directory, execute the queries, print them and exit. If everything goes well DB file taken from 
+DB_FILENAME should be automatically created in the app directory. It has a readable text format and is suitable for reading as is.
 
 Example of script output:
 ```
@@ -61,14 +61,12 @@ info: Results are saved to Db.
 
 ## Info
 
-I would be appreciated to get any feedback to algebris@gmail.com.
-I you'd like to test it with live JSON key, just drop me a message, 
-I will send you an example JSON key file (Read-only)
+I would appreciate any feedback at algebris@gmail.com.
+If you want to test it with a live JSON key, just drop me a message, 
+and I will send you an example JSON key file (Read-only)
 
 Cheers.
 
-Telegram: @algebris
-
-Skype: algebris
-
-Phone: +7(913)920-41-51
+* Telegram: @algebris
+* Skype: algebris
+* Phone: +7(913)920-41-51
