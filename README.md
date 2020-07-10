@@ -68,5 +68,7 @@ I will send you an example JSON key file (Read-only)
 Cheers.
 
 Telegram: @algebris
+
 Skype: algebris
+
 Phone: +7(913)920-41-51
