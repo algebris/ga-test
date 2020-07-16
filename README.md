@@ -59,6 +59,16 @@ info: Median number of visitors is 0 for past 7 days
 info: Results are saved to Db.
 ```
 
+## Links
+
+https://flaviocopes.com/google-analytics-api-nodejs/
+https://developers.google.com/analytics/devguides/reporting/core/v3/reference?hl=ru
+https://developers.google.com/analytics/devguides/reporting/core/v3/common-queries?hl=ru
+https://analytics.google.com/analytics/web/
+https://console.cloud.google.com/iam-admin/serviceaccounts/details
+https://ga-dev-tools.appspot.com/query-explorer/
+
+
 ## Info
 
 I would appreciate any feedback at algebris@gmail.com.
